@@ -33,3 +33,34 @@ const myFunction = function (){
 }
 
 console.log(typeof anotherId);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-primitive) 
+// 1. all primitive datatypes are stored in Stack Memory
+//2. all non-primitives datatypes are storerd in Heap Memory
+
+
+let myYoutubeName = "hiteshdotcom"
+
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne 
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
