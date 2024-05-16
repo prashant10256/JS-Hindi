@@ -18,8 +18,6 @@ let statte;
 //null => standallone value
 // undefined => 
 //symbol => unique
-
-
 //object
 
 
