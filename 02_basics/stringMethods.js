@@ -56,3 +56,5 @@ console.log(myStr1.replaceAll("cats", "Dogs"));// The replaceAll() method allows
 
 let myStr2 = "Hello World"
 console.log(myStr2.split(""));// A string can be converted to an array with the split() method:
+let myStr3 = "Hello World How are you"
+console.log(myStr2.split(""));// A string can be converted to an array with the split() method:
